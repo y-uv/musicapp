@@ -133,63 +133,67 @@ function App() {
 
   return (
     <>
-      <div className="container" />
-      <h1 className="text-center text-5xl text-white font-mono font-bold tracking-widest">
-        Yuval's piano
-      </h1>
-      <div className="keyboard">
-        <div className="key-white" onClick={() => handlePlayNote("A")}>
-          <span className="label">A</span>
-        </div>
-        <div className="key-black" onClick={() => handlePlayNote("W")}>
-          <span className="label">W</span>
-        </div>
-        <div className="key-white" onClick={() => handlePlayNote("S")}>
-          <span className="label">S</span>
-        </div>
-        <div className="key-black" onClick={() => handlePlayNote("E")}>
-          <span className="label">E</span>
-        </div>
-        <div
-          className="key-white"
-          onClick={() => handlePlayNote("D")}
-          style={{ marginRight: "25px" }}
-        >
-          <span className="label">D</span>
-        </div>
-        <div className="key-white" onClick={() => handlePlayNote("F")}>
-          <span className="label">F</span>
-        </div>
-        <div className="key-black" onClick={() => handlePlayNote("T")}>
-          <span className="label">T</span>
-        </div>
-        <div className="key-white" onClick={() => handlePlayNote("G")}>
-          <span className="label">G</span>
-        </div>
-        <div className="key-black" onClick={() => handlePlayNote("Y")}>
-          <span className="label">Y</span>
-        </div>
-        <div className="key-white" onClick={() => handlePlayNote("H")}>
-          <span className="label">H</span>
-        </div>
-        <div className="key-black" onClick={() => handlePlayNote("U")}>
-          <span className="label">U</span>
-        </div>
-        <div
-          className="key-white"
-          onClick={() => handlePlayNote("J")}
-          style={{ marginRight: "25px" }}
-        >
-          <span className="label">J</span>
-        </div>
-        <div className="key-white" onClick={() => handlePlayNote("K")}>
-          <span className="label">K</span>
-        </div>
-        <div className="key-black" onClick={() => handlePlayNote("O")}>
-          <span className="label">O</span>
-        </div>
-        <div className="key-white" onClick={() => handlePlayNote("L")}>
-          <span className="label">L</span>
+      <div className="flex flex-col items-center">
+        <div className="container" />
+        <h1 className="text-center text-5xl text-white font-mono font-bold tracking-widest">
+          Yuval's piano
+        </h1>
+        <div className="container" />
+        <div className="container" />
+        <div className="keyboard flex justify-center">
+          <div className="key-white" onClick={() => handlePlayNote("A")}>
+            <span className="label">A</span>
+          </div>
+          <div className="key-black" onClick={() => handlePlayNote("W")}>
+            <span className="label">W</span>
+          </div>
+          <div className="key-white" onClick={() => handlePlayNote("S")}>
+            <span className="label">S</span>
+          </div>
+          <div className="key-black" onClick={() => handlePlayNote("E")}>
+            <span className="label">E</span>
+          </div>
+          <div
+            className="key-white"
+            onClick={() => handlePlayNote("D")}
+            style={{ marginRight: "25px" }}
+          >
+            <span className="label">D</span>
+          </div>
+          <div className="key-white" onClick={() => handlePlayNote("F")}>
+            <span className="label">F</span>
+          </div>
+          <div className="key-black" onClick={() => handlePlayNote("T")}>
+            <span className="label">T</span>
+          </div>
+          <div className="key-white" onClick={() => handlePlayNote("G")}>
+            <span className="label">G</span>
+          </div>
+          <div className="key-black" onClick={() => handlePlayNote("Y")}>
+            <span className="label">Y</span>
+          </div>
+          <div className="key-white" onClick={() => handlePlayNote("H")}>
+            <span className="label">H</span>
+          </div>
+          <div className="key-black" onClick={() => handlePlayNote("U")}>
+            <span className="label">U</span>
+          </div>
+          <div
+            className="key-white"
+            onClick={() => handlePlayNote("J")}
+            style={{ marginRight: "25px" }}
+          >
+            <span className="label">J</span>
+          </div>
+          <div className="key-white" onClick={() => handlePlayNote("K")}>
+            <span className="label">K</span>
+          </div>
+          <div className="key-black" onClick={() => handlePlayNote("O")}>
+            <span className="label">O</span>
+          </div>
+          <div className="key-white" onClick={() => handlePlayNote("L")}>
+            <span className="label">L</span>
+          </div>
         </div>
       </div>
     </>

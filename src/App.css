@@ -1,16 +1,19 @@
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 10vh;
 }
 
 .keyboard {
-  display: flex;
+  display: inline-flex;
+  background-color: black;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 35vh;
+  flex-wrap: wrap;
+  width: 60%;
+  border-radius: 30px;
 }
 
 .key-white,
